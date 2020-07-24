@@ -107,10 +107,10 @@ class Routes extends React.Component {
               return (
               <Fragment>
               <Navbar t={this.props.t}/>
-              <div className="section">
+              <div className="section" style={{textAlign: "center", height: '95vh'}}>
               <h2>Registry</h2>
               <hr />
-              <h3 style={{textAlign: 'center'}}>Check Back Soon</h3>
+                <a target="_blank" href="https://www.zola.com/registry/laurenandmatthewnovember7">Link to registry</a>
               </div>
               </Fragment>
               )
