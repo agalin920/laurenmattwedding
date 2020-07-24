@@ -1,7 +1,6 @@
 import React, {Fragment} from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import history from './history';
-import Login from "./Login/Login";
 import NotFound from "./NotFound/NotFound";
 import App from "../App";
 import Hero from "./Hero/Hero";
@@ -9,8 +8,6 @@ import Navbar from './Navbar/Navbar';
 import Location from './Location/Location';
 import AboutUs from './AboutUs/AboutUs';
 import Table from './Table/Table';
-import PrivateRoute from "./PrivateRoute";
-import { firebaseApp } from "../base";
 import { translate } from "react-i18next";
 
 class Routes extends React.Component {
