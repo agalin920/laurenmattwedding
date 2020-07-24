@@ -139,7 +139,7 @@ class GuestCard extends Component {
           <input  onChange={(e) => this.handleChange(e, 'foodRestriction')} value={foodRestriction === 'null' ? "" : foodRestriction} type="text"/>
         </div>
         <div>
-          <label className="checkBoxLabel" htmlFor={`songRequest-${guestId}`}>Song requests:</label>
+          <label className="checkBoxLabel" htmlFor={`songRequest-${guestId}`}>Song Requests:</label>
           <input onChange={(e) => this.handleChange(e, 'songRequest')} value={songRequest === 'null' ? "" : songRequest} type="text"/>
         </div>
         <div style={{float: 'right'}} onClick={this.handleSave} className="modalButton">{!isSaving ? 'Save' : 'Saving...'}</div>
