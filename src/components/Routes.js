@@ -8,7 +8,10 @@ import Navbar from './Navbar/Navbar';
 import Location from './Location/Location';
 import AboutUs from './AboutUs/AboutUs';
 import Table from './Table/Table';
+import Countdown from './Countdown';
+import Schedule from './Schedule';
 import { translate } from "react-i18next";
+import "./routes.css";
 
 class Routes extends React.Component {
 
@@ -37,68 +40,7 @@ class Routes extends React.Component {
               return (
               <Fragment>
               <Navbar t={this.props.t}/>
-              <div id="directions">
-          <div className="transportList">
-            <h2>
-              <i className="fas fa-sun" />
-              {this.props.t("location.plane", {
-                framework: "react-i18next"
-              })}
-            </h2>
-            <span className="detailedDirections">
-              {this.props.t("location.planedescription1", {
-                framework: "react-i18next"
-              })}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.busradar.com/coach/bari-airport-bri/foggia/"
-              >
-                {this.props.t("location.planedescription2", {
-                  framework: "react-i18next"
-                })}
-              </a>{" "}
-              {this.props.t("location.planedescription3", {
-                framework: "react-i18next"
-              })}
-            </span>
-          </div>
-          <div className="transportList">
-            <h2>
-              <i className="fas fa-sun" />
-              {this.props.t("location.car", {
-                framework: "react-i18next"
-              })}
-            </h2>
-            <span className="detailedDirections">
-              {this.props.t("location.cardescription", {
-                framework: "react-i18next"
-              })}
-            </span>
-          </div>
-          <div className="transportList">
-            <h2>
-              <i className="fas fa-sun" />
-              {this.props.t("location.train", {
-                framework: "react-i18next"
-              })}
-            </h2>
-            <span className="detailedDirections">
-              {this.props.t("location.traindescription", {
-                framework: "react-i18next"
-              })}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.trenitalia.com/tcom-en"
-              >
-                {this.props.t("location.traindescription2", {
-                  framework: "react-i18next"
-                })}
-              </a>
-            </span>
-          </div>
-        </div>
+              <Schedule/>
               </Fragment>
               )
             }} />
@@ -110,7 +52,9 @@ class Routes extends React.Component {
               <div className="section" style={{textAlign: "center", height: '95vh'}}>
               <h2>Registry</h2>
               <hr />
-                <a target="_blank" href="https://www.zola.com/registry/laurenandmatthewnovember7">Link to registry</a>
+                <Countdown />
+                <a style={{ color: 'rgb(108, 123, 104)' }} target="_blank" href="https://www.zola.com/registry/laurenandmatthewnovember7">Link to registry</a>
+                {/* <div className="header"></div> */}
               </div>
               </Fragment>
               )

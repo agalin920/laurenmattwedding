@@ -1,0 +1,42 @@
+.event {
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  font-family: 'Bad Script', Arial;
+  font-weight: bold;
+}
+
+.right {
+  text-align: center;
+  border-left: 1px solid black;
+  width: 50%;
+  font-family: 'Lato', Arial;
+  line-height: 2;
+}
+
+.dayLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: 'Lato', Arial;
+}
+
+.dayLink a{
+  color: black;
+}
+
+.details {
+  width: 540px;
+  margin: 0 auto;
+}
