@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "181a5d221669155194c2",
-    "url": "/static/css/main.0b4880df.chunk.css"
+    "revision": "e3cb4d04d2edeeb67fca",
+    "url": "/static/css/main.7db98d87.chunk.css"
   },
   {
-    "revision": "181a5d221669155194c2",
-    "url": "/static/js/main.181a5d22.chunk.js"
+    "revision": "e3cb4d04d2edeeb67fca",
+    "url": "/static/js/main.e3cb4d04.chunk.js"
   },
   {
-    "revision": "de0a50de0754dcd2cff0",
-    "url": "/static/css/1.f94efe11.chunk.css"
+    "revision": "ef3afa52ce472a3209f7",
+    "url": "/static/css/1.fd51f16d.chunk.css"
   },
   {
-    "revision": "de0a50de0754dcd2cff0",
-    "url": "/static/js/1.de0a50de.chunk.js"
+    "revision": "ef3afa52ce472a3209f7",
+    "url": "/static/js/1.ef3afa52.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/96456648-shiny-yellow-leaf-gold-foil-texture-background.d80f7f59.jpg"
   },
   {
-    "revision": "0e4bf926334233cb809715e0c9a2d4f8",
+    "revision": "13831dd51b14a2f96765a15c16c00545",
     "url": "/index.html"
   }
 ];
