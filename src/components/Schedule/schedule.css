@@ -11,7 +11,7 @@
 .left {
   text-align: center;
   width: 50%;
-  font-family: 'Bad Script', Arial;
+  font-family: 'Poiret One', Arial;
   font-weight: bold;
 }
 
@@ -19,7 +19,7 @@
   text-align: center;
   border-left: 1px solid black;
   width: 50%;
-  font-family: 'Lato', Arial;
+  font-family: 'Bad Script', Arial;
   line-height: 2;
 }
 
@@ -39,4 +39,11 @@
 .details {
   width: 540px;
   margin: 0 auto;
+}
+
+.transportInfo {
+  width: 540px;
+  margin: 0 auto;
+  font-size: 0.5em;
+  font-family: 'Lato', Arial;
 }

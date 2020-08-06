@@ -34,6 +34,7 @@ function Schedule() {
           <div>4:00 p.m. Arrive at Hacienda Chekul</div>
           <div>4:30 p.m. Ceremony starts</div>
           <div>5:00 p.m. Cocktail and Reception</div>
+          <div className="transportInfo">Transportation will be provided to and from the wedding venue departure will be between 3:45 P.M. and 4:15pm</div>
         </div>
       </div>
       <div className="event" id="sunday">
