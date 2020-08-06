@@ -66,7 +66,7 @@ class NavbarView extends React.Component {
         <Nav.Link  onClick={()=>history.push('/travel')}>Travel</Nav.Link>
         <Nav.Link  onClick={()=>history.push('/scheduleOfEvents')}>Schedule of Events</Nav.Link>
         <Nav.Link  href="https://www.zola.com/registry/laurenandmatthewnovember7" target="_blank">Registry</Nav.Link>
-        <Nav.Link  onClick={()=>history.push('/thingsToDo')}>Things to do</Nav.Link>
+        <Nav.Link  onClick={()=>history.push('/thingsToDo')}>Things to Do</Nav.Link>
         <Nav.Link  onClick={()=>history.push('/contactUs')}>Contact Us</Nav.Link>
       </Nav>
       </Navbar.Collapse>

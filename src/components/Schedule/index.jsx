@@ -22,7 +22,7 @@ function Schedule() {
         <div className="right">
           <div>Welcome Party</div>
           <div>7:30 p.m. Dinner & Cocktail</div>
-          <div>ARCAy</div>
+          <div>ARCA</div>
         </div>
       </div>
       <div className="event" id="saturday">
