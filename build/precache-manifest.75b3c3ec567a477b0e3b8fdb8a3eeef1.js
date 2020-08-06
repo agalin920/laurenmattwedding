@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c2e98a837860689707ea",
-    "url": "/static/css/main.3a7b40ed.chunk.css"
+    "revision": "420bf01e3a032e400dfe",
+    "url": "/static/css/main.759b2319.chunk.css"
   },
   {
-    "revision": "c2e98a837860689707ea",
-    "url": "/static/js/main.c2e98a83.chunk.js"
+    "revision": "420bf01e3a032e400dfe",
+    "url": "/static/js/main.420bf01e.chunk.js"
   },
   {
     "revision": "ef3afa52ce472a3209f7",
@@ -24,15 +24,15 @@ self.__precacheManifest = [
     "url": "/static/media/Dense-Regular.87ae1e61.otf"
   },
   {
-    "revision": "19f2bbf3f4b14605e9a4222966ed6f01",
-    "url": "/static/media/bec3f96e-5e03-44b9-b6b0-a215df0fe213.19f2bbf3.jpeg"
-  },
-  {
     "revision": "d80f7f59756418cc49c8c70280d0ca7d",
     "url": "/static/media/96456648-shiny-yellow-leaf-gold-foil-texture-background.d80f7f59.jpg"
   },
   {
-    "revision": "bbae3d6d87b72acaf2a1dcdaa7dbe3d2",
+    "revision": "19f2bbf3f4b14605e9a4222966ed6f01",
+    "url": "/static/media/bec3f96e-5e03-44b9-b6b0-a215df0fe213.19f2bbf3.jpeg"
+  },
+  {
+    "revision": "7623c5e9597f955ad97e68a0ee583cca",
     "url": "/index.html"
   }
 ];
