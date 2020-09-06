@@ -10,6 +10,7 @@ import AboutUs from './AboutUs/AboutUs';
 import Table from './Table/Table';
 import Countdown from './Countdown';
 import Schedule from './Schedule';
+import ThingsToDo from './ThingsToDo';
 import { translate } from "react-i18next";
 import "./routes.css";
 
@@ -63,11 +64,7 @@ class Routes extends React.Component {
               return (
               <Fragment>
               <Navbar t={this.props.t}/>
-              <div className="section">
-              <h2>Things To Do</h2>
-              <hr />
-              <h3 style={{textAlign: 'center'}}>Check Back Soon</h3>
-              </div>
+              <ThingsToDo />
               </Fragment>
               )
             }} />
