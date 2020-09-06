@@ -1,7 +1,14 @@
+.section {
+  padding: 0px;
+  margin-top: 0px;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,242,214,1) 100%);
+}
+
+
 .event {
   display: flex;
   justify-content: space-between;
-  height: 70vh;
+  height: 1000px;
   width: 100%;
   margin: 0 auto;
   align-items: center;
@@ -21,12 +28,12 @@
   width: 50%;
   font-family: 'Bad Script', Arial;
   line-height: 2;
+  padding: 0 10px;
 }
 
 .dayLinks {
   display: flex;
-  justify-content: space-between;
-  width: 300px;
+  justify-content: center;
   margin: 0 auto;
   font-size: 1.5em;
   font-family: 'Lato', Arial;
@@ -34,17 +41,26 @@
 
 .dayLink a{
   color: black;
+  padding: 0 5px;
 }
 
 .details {
-  width: 540px;
   margin: 0 auto;
 }
 
 .transportInfo {
-  width: 480px;
   margin: 0 auto;
   font-size: 0.5em;
   font-family: 'Lato', Arial;
   margin-top: 10px;
+}
+
+.right > div:first-of-type {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.addeventatc {
+  z-index: 1 !important;
 }
