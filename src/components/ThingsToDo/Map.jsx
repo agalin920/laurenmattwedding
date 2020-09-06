@@ -12,7 +12,7 @@ export class MapContainer extends Component {
           lat: 20.2114,
           lng: -87.4654,
         }}
-        style={{ width: "80%", height: 500, margin: "0 auto", top: "-600px" }}
+        style={{ width: "80%", height: 500, margin: "0 auto" }}
       >
 
       <Marker

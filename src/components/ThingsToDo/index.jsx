@@ -7,16 +7,15 @@ import './thingstodo.css';
 
 function ThingsToDo() {
   return (
-    <div className="section text-center" style={{height: '2250px'}}>
+    <div className="section text-center">
       <h2>Things To Do</h2>
       <hr />
-      <div style={{ height: 600 }}></div>
-      <ScrollAnimation animateIn="fadeIn" delay={500}>
+      <ScrollAnimation animateOnce animateIn="fadeIn" delay={500}>
         <Map />
       </ScrollAnimation>
-        <Row className="mx-5">
+        <Row className="mx-5" style={{marginTop: 673}}>
           <Col>
-          <ScrollAnimation animateIn="fadeInDown">
+          <ScrollAnimation animateOnce  animateIn="fadeInDown">
             <ThingCard
               image="https://cdn.getyourguide.com/img/tour/57519b09f16ea.jpeg/146.jpg"
               title="Where to Explore"
@@ -54,7 +53,7 @@ function ThingsToDo() {
             </ScrollAnimation>
           </Col>
           <Col>
-          <ScrollAnimation animateIn="fadeInDown" delay={500}>
+          <ScrollAnimation animateOnce  animateIn="fadeInDown" delay={500}>
             <ThingCard
               image="https://stories.cheapcaribbean.com/wp-content/uploads/2017/04/Gitano-tulum-entrance-@lila.avatara.jpg"
               title="Where to Eat"
@@ -80,7 +79,7 @@ function ThingsToDo() {
             </ScrollAnimation>
           </Col>
           <Col>
-          <ScrollAnimation animateIn="fadeInDown" delay={1000}>
+          <ScrollAnimation animateOnce  animateIn="fadeInDown" delay={1000}>
             <ThingCard
               image="https://cdn.forbes.com.mx/2019/11/Ahau.jpg"
               title="Where to Drink"
@@ -106,7 +105,7 @@ function ThingsToDo() {
             </ScrollAnimation>
           </Col>
           <Col>
-          <ScrollAnimation animateIn="fadeInDown" delay={1500}>
+          <ScrollAnimation animateOnce animateIn="fadeInDown" delay={1500}>
             <ThingCard
               image="https://departmentofwandering.com/wp-content/uploads/2016/04/papaya_playa_project_tulum-0939-750x500.jpg"
               title="Beach Clubs"

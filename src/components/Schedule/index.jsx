@@ -21,7 +21,7 @@ function Schedule() {
           <a href="#sunday">Sunday</a>
         </div>
       </div>
-      <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+      <ScrollAnimation animateOnce animateIn="fadeIn" animateOut='fadeOut'>
         <div className="event" id="friday">
           <div className="left">
             <div>Friday</div>
@@ -45,7 +45,7 @@ function Schedule() {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+      <ScrollAnimation animateOnce animateIn="fadeIn" animateOut='fadeOut'>
         <div className="event" id="saturday">
           <div className="left">
             <div>Saturday</div>
@@ -74,7 +74,7 @@ function Schedule() {
           </div>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+      <ScrollAnimation animateOnce animateIn="fadeIn" animateOut='fadeOut'>
         <div className="event" id="sunday">
           <div className="left">
             <div>Sunday</div>
