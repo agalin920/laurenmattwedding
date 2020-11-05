@@ -82,7 +82,7 @@ function Schedule() {
           </div>
           <div className="right">
             <div>Beach day</div>
-            <div className="details">Location to be determined</div>
+            <div className="details">Chekul starting at 2pm</div>
             <a
               title="Add to Calendar"
               class="addeventatc"
